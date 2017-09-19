@@ -1,0 +1,72 @@
+{
+  "intents": [
+    {
+      "name": "AMAZON.CancelIntent",
+      "samples": [
+        "to stop"
+      ]
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+      "samples": [
+        "for help"
+      ]
+    },
+    {
+      "name": "AMAZON.StopIntent",
+      "samples": [
+        "to stop"
+      ]
+    },
+    {
+      "name": "events",
+      "samples": [
+        "events"
+      ],
+      "slots": []
+    },
+    {
+      "name": "incidents",
+      "samples": [
+        "any new incidents",
+        "any new alerts"
+      ],
+      "slots": []
+    },
+    {
+      "name": "violations",
+      "samples": [
+        "violations"
+      ],
+      "slots": []
+    }
+  ],
+  "types": [
+    {
+      "name": "NEWRELIC_Alert",
+      "values": [
+        {
+          "id": null,
+          "name": {
+            "value": "Event",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Violation",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Incident",
+            "synonyms": []
+          }
+        }
+      ]
+    }
+  ]
+}
