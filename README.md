@@ -4,13 +4,13 @@ Have your Amazon Alexa device manage your New Relic alerts.
 
 ## Requirements
 
-- Amazon API Gateway
-- Valid SSL Certificate
+- Amazon Web Services Lambda
+- Amazon Developer portal account
 - New Relic account with alerts configured
 
 ## Features
 
-- Receives an alert via New Relic alerts webhook and pushes to Alexa
+- Receives an alert via New Relic alerts API and pushes to Alexa
 - Allows user to ask Alexa for open alerts
   - "Alexa, ask Chatrelic if I have any new incidents."
 
